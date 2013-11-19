@@ -1,0 +1,17 @@
+1. Block structure PL/SQL:
+	BEGIN statement; END;
+	Equivalent C/C++/Java/C# block:
+	{ statement; 
+		{ statement; }; } /* is a statement within a statementst
+
+Mutable variable = reference to the variable
+Immutable variable = copy of the value
+
+Anything compared with NULL in an and statement is false
+
+4 common errors
+
+loop errors
+separated logic
+errors with wrong logical operators
+type mismatch

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="url.css">
+</head>
+<body>
+	<form>
+	  <fieldset>
+	    <legend>Custom Article Path</legend>
+	    <label>Title</label>
+	    <input id="title" type="text" placeholder="Enter Title Here">
+	    <div class="show">
+		    <label>Generated Path</label>
+		    <input id="generated" type="text" readonly>
+	    </div>
+	    <label class="checkbox">
+	      <input type="checkbox"> Use a Custom Path
+	    </label>
+	    <div class="hide">
+		    <label>Article Path</label>
+		    <input type="text" placeholder="Example: /article-path-here">
+	    </div>
+	    <span class="help-block">Just for testing a different way to do the generated path.</span>
+	    <button type="button" class="btn btn-primary" onclick="nothing()">Submit</button>
+	  </fieldset>
+	</form>
+	<script type="text/javascript" src="../jQuery191.js"></script>
+	<script type="text/javascript" src="url.js"></script>
+</body>
+</html>

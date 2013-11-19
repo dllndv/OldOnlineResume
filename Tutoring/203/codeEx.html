@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html> 
+<head> 
+<meta charset="utf-8" />
+<title></title>
+<script type="text/JavaScript">
+	function Adder(){
+	//initiate variables	
+		var num1, num2, answer;
+	
+	//get the inputs	
+		num1 = parseFloat(document.calculator.firstNumber.value);
+		num2 = parseFloat(document.calculator.secondNumber.value);
+		
+	//do the stuff
+		answer = num1 + num2;
+	
+	//do the output
+		document.calculator.output.value = answer;
+	}
+</script>
+</head>
+
+<body>
+<form name="calculator" method="get" action="">
+	<input type = "text" name="firstNumber" size="4"/> <br/>
+	<input type = "text" name="secondNumber" size="4"/> <br/>
+	<button type="button" onclick="Adder()"> ADD NOW!</button><br/>
+	<input type = "text" name="output" size="4"/> 
+</form>
+
+
+</body>
+</html>
